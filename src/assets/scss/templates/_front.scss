@@ -1,0 +1,16 @@
+// Intro
+.intro {
+
+  .fp-intro {
+
+    .intro-container {
+
+      .entry-content {
+
+        @include breakpoint(medium) {
+          @include xy-cell(12);
+        }
+      }
+    }
+  }
+}
