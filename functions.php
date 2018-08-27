@@ -16,6 +16,8 @@
 
 define( 'KWASKE_LIFT_VERSION', '0.1.0' );
 
+require_once 'library/third-party.php';
+
 add_action( 'do_meta_boxes', 'kwaske_lift_remove_mb_home' );
 add_action( 'init', 'kwaske_lift_register_assets' );
 add_action( 'wp_enqueue_scripts', 'kwaske_lift_enqueue_front_assets', 100 );
