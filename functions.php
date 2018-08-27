@@ -14,7 +14,7 @@
  * @since FoundationPress 1.0.0
  */
 
-define( 'KWASKE_LIFT_VERSION', '0.1.0' );
+define( 'KWASKE_LIFT_VERSION', '0.1.1' );
 
 require_once 'library/third-party.php';
 
